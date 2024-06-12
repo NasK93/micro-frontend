@@ -4,6 +4,8 @@ module.exports = {
   name: 'remote',
   exposes: {
     './Button': './src/Button',
+    './Header': '../shared_components/Header',
+    './Footer': '../shared_components/Footer',
   },
   filename: 'remoteEntry.js',
   shared: {
@@ -18,5 +20,3 @@ module.exports = {
     },
   },
 };
-
-
