@@ -4,7 +4,7 @@ module.exports = {
   name: 'host',
   remotes: {
     remote: 'remote@http://localhost:3002/remoteEntry.js',
-    sharedComponents: 'sharedComponents@http://localhost:3003/remoteEntry.js',
+    sharedComponents: 'sharedComponents@http://localhost:3003/sharedComponentsEntry.js',
   },
   shared: {
     ...dependencies,

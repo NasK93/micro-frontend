@@ -4,8 +4,9 @@ module.exports = {
   name: 'remote',
   exposes: {
     './Button': './src/Button',
-    './Header': '../shared_components/Header',
-    './Footer': '../shared_components/Footer',
+  },
+  remotes: {
+    sharedComponents: 'sharedComponents@http://localhost:3003/sharedComponentsEntry.js',
   },
   filename: 'remoteEntry.js',
   shared: {

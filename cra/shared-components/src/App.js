@@ -1,5 +1,6 @@
 import LocalButton from './Button';
 import Header from './Header';
+import Footer from './Footer';
 
 const App = () => (
   <div>
@@ -7,6 +8,7 @@ const App = () => (
     <h2>Remote</h2>
     <LocalButton />
     <Header />
+    <Footer />
   </div>
 );
 
