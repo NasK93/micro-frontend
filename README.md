@@ -1,3 +1,4 @@
+[Lien du document](https://docs.google.com/document/d/1rzR74ImdXDwBQgOhv2lHO0Ua2lU_6W6XyEYtin2oDnU/edit?usp=sharing)
 # Module Federation Examples
 
 This repository is to showcase examples of how Webpack 5's new Module Federation can be used.
