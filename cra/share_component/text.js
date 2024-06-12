@@ -1,9 +1,2 @@
-constructor(props) {
-  super(props);
-  this.state = {
-    value: null
-  }
-}
-
-const Text = () => <p>{this.props.value}</p>;
+const Text = () => <p>Text provenant de share component</p>;
 export default Text;
