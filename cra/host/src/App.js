@@ -1,7 +1,10 @@
 import React from 'react';
+import Text from './Text';
 
 const RemoteButton = React.lazy(() => import('remote/Button'));
 const SharedComponentsHeader = React.lazy(() => import('sharedComponents/Header'));
+const SharedComponentsFooter = React.lazy(() => import('sharedComponents/Footer'));
+
 const App = () => (
   <div>
     <h1>Basic Host-Remote</h1>
@@ -9,6 +12,8 @@ const App = () => (
     <React.Suspense fallback="Loading Button">
       <RemoteButton />
       <SharedComponentsHeader fallback="Loading Header" />
+      <Text text={'test'} />
+      <SharedComponentsFooter fallback="Loading Footer" />
     </React.Suspense>
   </div>
 );
